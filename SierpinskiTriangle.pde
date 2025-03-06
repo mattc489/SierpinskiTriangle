@@ -20,7 +20,7 @@ if(len<=baseCase){
  int x3 = x + len;
  int y3 = y;
  int x2 = x + len/2;
- int y2 = y - len/2;
+ int y2 = y - len/4;
  fill(0);
  stroke(0);
  triangle(x1,y1,x2,y2,x3,y3);
